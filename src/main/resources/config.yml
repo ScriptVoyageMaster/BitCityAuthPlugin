@@ -1,0 +1,23 @@
+auth:
+  session_ttl_days: 14
+  session_ip_match: soft
+  max_concurrent_sessions_per_account: 1
+  max_registrations_per_ip_per_day: 3
+  rate_limits:
+    login_per_account_per_5m: 5
+    login_per_ip_per_5m: 20
+  password:
+    min_length: 8
+    disallow_common: true
+  crypto:
+    algo: pbkdf2
+    pepper: "CHANGE_ME_LONG_RANDOM"
+
+ui:
+  lobby:
+    world: "AuthLobby"
+    spawn: {x: 0, y: 80, z: 0, yaw: 0, pitch: 0}
+  idle_kick_seconds: 60
+
+i18n:
+  default_lang: "ua"

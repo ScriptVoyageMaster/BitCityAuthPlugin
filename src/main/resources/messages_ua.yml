@@ -1,0 +1,23 @@
+gui.title: "&6Авторизація"
+gui.register: "&aЗареєструватися"
+gui.login: "&eУвійти"
+gui.change.pass: "&bЗмінити пароль"
+gui.recover: "&dВідновити доступ"
+gui.lang: "&fМова (UA/EN)"
+gui.help: "&7Довідка"
+
+prompt.enter.pass: "&7Введіть пароль у чаті (тільки ви його бачите)"
+prompt.repeat.pass: "&7Повторіть пароль для підтвердження"
+prompt.enter.old.pass: "&7Введіть старий пароль"
+
+error.simple.pass: "&cПароль занадто простий"
+error.pass.mismatch: "&cПаролі не співпадають"
+error.locked: "&cТимчасово заблоковано. Спробуйте пізніше"
+error.blocked: "&cВаш акаунт заблоковано адміном"
+error.already.registered: "&eНік уже зареєстровано"
+error.not.registered: "&cНевірні дані. Спробуйте ще"
+
+success.registered: "&aРеєстрація успішна!"
+success.logged.in: "&aВхід виконано"
+bossbar.text.ua: "Авторизація: %remaining%s"
+bossbar.text.en: "Authentication: %remaining%s"

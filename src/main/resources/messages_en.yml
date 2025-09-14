@@ -1,0 +1,23 @@
+gui.title: "&6Authentication"
+gui.register: "&aRegister"
+gui.login: "&eLogin"
+gui.change.pass: "&bChange password"
+gui.recover: "&dAccount recovery"
+gui.lang: "&fLanguage (UA/EN)"
+gui.help: "&7Help"
+
+prompt.enter.pass: "&7Type your password in chat (only you will see it)"
+prompt.repeat.pass: "&7Repeat password to confirm"
+prompt.enter.old.pass: "&7Enter your old password"
+
+error.simple.pass: "&cPassword is too simple"
+error.pass.mismatch: "&cPasswords do not match"
+error.locked: "&cTemporarily locked. Try later"
+error.blocked: "&cYour account is blocked by admin"
+error.already.registered: "&eNickname is already registered"
+error.not.registered: "&cInvalid credentials. Try again"
+
+success.registered: "&aRegistered successfully!"
+success.logged.in: "&aLogged in"
+bossbar.text.ua: "Авторизація: %remaining%s"
+bossbar.text.en: "Authentication: %remaining%s"
