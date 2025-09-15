@@ -1,7 +1,7 @@
 name: BitCityAuth
 main: city.bit.auth.BitCityAuthPlugin
 version: 0.1.0
-api-version: '1.20'
+api-version: '1.21'
 author: Bit.City
 description: Offline GUI auth with PBKDF2, sessions, soft IP-match
 permissions:
