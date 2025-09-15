@@ -5,7 +5,9 @@ import city.bit.auth.i18n.Msg;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.*;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 
 /**
  * Відповідає за створення графічного інтерфейсу авторизації.
@@ -43,10 +45,10 @@ public class GuiFactory {
      * Створює предмет-кнопку з вказаним матеріалом та назвою.
      */
     private ItemStack button(Material mat, String name) {
-        ItemStack it = new ItemStack(mat);
-        ItemMeta im = it.getItemMeta();
-        im.setDisplayName(name);
-        it.setItemMeta(im);
-        return it;
+        ItemStack it = new ItemStack(mat); // створюємо предмет з потрібного матеріалу
+        ItemMeta im = it.getItemMeta(); // отримуємо мета-дані, що дозволяють змінювати властивості
+        im.setDisplayName(name); // встановлюємо назву, яку побачить гравець
+        it.setItemMeta(im); // записуємо змінені мета-дані назад у предмет
+        return it; // повертаємо готову «кнопку» для розміщення в інвентарі
     }
 }
